@@ -95,3 +95,23 @@
 .sample-projects p {
   padding: 0 24px;
 }
+
+/* testimonial */
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 325px;
+  background-color: #E5E7EB;
+}
+
+blockquote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  color: #1F2937;
+}
+
+cite {
+  align-self: flex-end;
+  font-style: normal;
+}
