@@ -134,7 +134,7 @@ cite {
 }
 
 .call-to-action .container,
-button {
+.call-to-action button {
   background-color: #3882F6;
 }
 
@@ -147,4 +147,14 @@ button {
 
 .call-to-action-title p {
   font-weight: 100;
+}
+
+/* footer */
+footer {
+  font-size: 18px;
+  font-weight: 200;
+  color: #F9FaF8;
+  background-color: #1F2937;
+  padding: 16px 0;
+  text-align: center;
 }
