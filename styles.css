@@ -6,6 +6,10 @@
   font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
+button {
+  cursor: pointer;
+}
+
 /* NAVIGATION */
 .navigation {
   background-color: #1F2937;
@@ -24,9 +28,11 @@
   list-style: none;
 }
 
-.header-links {
+.header-links,
+a {
   display: flex;
   gap: 30px;
+  text-decoration: none;
   font-size: 18px;
   font-weight: 100;
   color: #E5E7EB;
