@@ -63,6 +63,17 @@
   height: auto;
 }
 
+.hero-title button {
+  width: fit-content;
+  padding: 3px 25px;
+  border-radius: 3px;
+  border: 2px solid #3882F6;
+  color: #F9FaF8;
+  margin-top: 5px;
+  padding: 3px 25px;
+  border-radius: 3px;
+}
+
 /* projects */
 .projects {
   display: flex;
@@ -134,7 +145,7 @@ cite {
 }
 
 .call-to-action .container,
-.call-to-action button {
+button {
   background-color: #3882F6;
 }
 
